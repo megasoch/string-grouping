@@ -1,5 +1,8 @@
 package printers;
 
+/**
+ * Интерфейс вывода
+ */
 public interface DataPrinter {
-    void print();
+    void print(Object object);
 }
